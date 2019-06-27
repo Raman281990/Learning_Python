@@ -1,0 +1,72 @@
+Arrays:
+======
+
+
+1. Find an element in array such that sum of left array is equal to sum of right array 
+    https://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/
+	
+	Find pair of numbers in a collection that equal to a given sum(Informatica, Jet)
+
+2. Move all zeroes to end of array
+   https://www.geeksforgeeks.org/move-zeroes-end-array/
+   
+3. Tapping rain water
+   https://leetcode.com/problems/trapping-rain-water/description/
+   
+   https://www.geeksforgeeks.org/trapping-rain-water/
+   
+4. Largest Sum Contiguous Subarray
+   https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+   
+   Question- Company- Yahoo finance
+   //contiguous block in array with maximum sum
+	//func([3,4,-8,5,6,7]) = [5,6,7]
+	//func([3,4,-6,5,6,7]) = [3,4,-6,5,6,7]*/
+   
+5. Smallest sum contiguous subarray
+   https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/
+   
+5. Searching a given number in a sorted (rowwise and columnwise) two-d array
+https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+
+6. Find the point where maximum intervals overlap
+  https://www.geeksforgeeks.org/find-the-point-where-maximum-intervals-overlap/
+  
+7. Find a pair of integers (one from each array) such that the difference between them is the minimum of all the possible combinations.
+
+	a = {9, 7, 4, 11}
+	b = {1, 21, 2, 6}
+	pairs: (9,1), (9,21), (9,2), (9, 6), (7,1) (7,21) .... 
+	output: 7, 6
+
+8. 	// Q. Given the stock prices for n consecutive days and if you are allowed to buy a single stock and then sell it, what is the maximum profit you can make?
+	//   stock =  [2, 3, 10, 6, 4, 8, 1]
+
+9. https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/
+
+10. Splunk 
+   Design a push and pop operation
+   Requirements push will insert an element
+   Pop will remove the minimum element
+   
+11. Expedia (TwoD array)
+    The world of the Game of Life is an M x N two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+•   Any live cell with fewer than two live neighbors dies, as if caused by under-population.
+•   Any live cell with two or three live neighbors lives on to the next generation.
+•   Any live cell with more than three live neighbors dies, as if by overcrowding.
+•   Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+
+	Code the function that applies the transitions to the current iteration of the world to provide the next iteration
+	------------------------------------------------------------------
+	* live
+	o dead
+
+	o*o
+	o*o
+	o*o
+
+	---> transition --->
+	ooo
+	***
+	ooo
+
