@@ -23,4 +23,7 @@ avg = countValues / totalLines
 print("Average spam confidence:" + str(avg))
 
 
+fh = open("Arrays.txt",'r')
+fh.close()
+
 
